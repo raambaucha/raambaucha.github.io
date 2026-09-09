@@ -375,20 +375,25 @@ header {
 
     border-radius: 17px;
 
-    background:
-        linear-gradient(
-            145deg,
-            #d9e7d6,
-            #8eab95
-        );
+    overflow: hidden;
 
-    display: flex;
+    background: #d9e7d6;
 
-    justify-content: center;
-
-    align-items: center;
 }
 
+.profile-photo img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    display: block;
+
+}
 
 .profile-initials {
 
@@ -1386,16 +1391,11 @@ footer {
 
 <!-- PROFILE CARD -->
 
-<div class="profile-card">
-
-
 <div class="profile-photo">
 
-<span class="profile-initials">
-
-    RP
-
-</span>
+    <img
+        src="assets/ram-parajuli.jpg"
+        alt="Ram Parajuli">
 
 </div>
 
